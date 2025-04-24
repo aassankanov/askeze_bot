@@ -19,7 +19,7 @@ A simple Telegram bot that sends motivational quotes using the [Quotable API](ht
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/motivator-bot.git
+   git clone https://github.com/aassankanov/askeze_bot.git
    cd motivator-bot
 Install the required packages:
 

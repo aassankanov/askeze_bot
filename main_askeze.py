@@ -5,7 +5,7 @@ from telegram import Update  # Represents an incoming update/message from a user
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes  # Tools to build the bot
 
 # Your Telegram Bot Token 
-BOT_Token = '7247530559:AAEPa8Wj3ffvLuIkXib3WFjiw430B0OIc68'
+BOT_Token = 'Put your telegram token that you can create using botfather'
 
 #enable logging to see errors and info in the consolegit --version
 
@@ -42,7 +42,7 @@ async def quote(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # This is the main part that runs the bot
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("7247530559:AAEPa8Wj3ffvLuIkXib3WFjiw430B0OIc68").build()   # Create an application (the main bot engine) using your bot token
+    app = ApplicationBuilder().token("put your telegram token that you created").build()   # Create an application (the main bot engine) using your bot token
       # Add command handlers: what to do when someone types /start or /quote
     app.add_handler(CommandHandler("start", start))     # When user types /start, run start()
     app.add_handler(CommandHandler("quote", quote))     # When user types /quote, run quote()
